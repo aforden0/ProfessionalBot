@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -93,19 +93,19 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#A188BA",
+      secondary: "#372747",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287",
-      error: "#ED4245",
-      warning: "#FEE75C",
-      info: "#3498DB",
+      success: "#659479",
+      error: "#B56767",
+      warning: "#D9D5A5",
+      info: "#18243D",
 
       // Neutral utility colors.
-      light: "#FFFFFF",
-      dark: "#202225",
-      gray: "#99AAB5",
+      light: "#DAE2F2",
+      dark: "#101B24",
+      gray: "#636369",
 
       // Discord-style palette shortcuts.
       blurple: "#5865F2",
@@ -117,8 +117,8 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#DE95B5",
+        ended: "#4B3C52",
       },
       ticket: {
         open: "#57F287",
@@ -126,22 +126,22 @@ export const botConfig = {
         closed: "#ED4245",
         pending: "#99AAB5",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#C27455",
+      birthday: "#99BFD1",
+      moderation: "#000000",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        none: "#D9C1C1",
+        low: "#D1A3A3",
+        medium: "#B57B7B",
+        high: "#944646",
+        urgent: "#400909",
       },
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Professional Bot!",
       // Footer icon URL (null = no icon).
       icon: null,
     },
